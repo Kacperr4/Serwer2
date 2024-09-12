@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this template
+-->
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uploaded Image</title>
+</head>
+<body>
+    <h1>Uploaded Image</h1>
+    <img th:src="@{'data:image/png;base64,'+${imageBase64}}" >
+    <br>
+    <a href="/">Back to upload</a>
+</body>
+</html>
+
+
